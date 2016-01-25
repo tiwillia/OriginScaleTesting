@@ -3,7 +3,7 @@
 These are one-off scripts developed to perform specific scalability tests for Origin.
 
 ###Master-etcd-scale.go:
-  This script's purpose is to scale an openshift origin system using a pre-defined template and assuming that each x users will be created with one project each. 
+  This script's purpose is to scale an openshift origin system using a pre-defined template and assuming that each user will be created with one project.
   ```
     -admin_kubeconfig string
     	Kubeconfig file for the system:admin user. (default "/openshift.local.config/master/admin.kubeconfig")
