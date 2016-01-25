@@ -33,6 +33,8 @@ These are one-off scripts developed to perform specific scalability tests for Or
     	Be verbose with output.
 ```
 
+Note that this test requires a template be provided. An example template has been provided titled 'Master-template_example.json'
+
 
 ###Node-PodWatcher.go
   The purpose of this script is to determine possible pod limits for a node and to determine the difference in time pods take to create depending on how many pods a node currently has. This script is a derivitive of the `Master-etcd-scale.go`. There is no concurrency. Instead, templates will be created one-at-a-time. Pods created by each template will be watched in etcd. The time it takes for the pod to go from being created in etcd until it is in RUNNING state is recorded. 
@@ -70,3 +72,5 @@ These are one-off scripts developed to perform specific scalability tests for Or
   -verbose
     	Be verbose with output.
   ```
+
+This test creates from a template, but the template is embedded in the script due to the need to specify a specific number of replicas and this test's reliance on pod creation.
