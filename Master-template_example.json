@@ -2,10 +2,10 @@
   "kind": "Template",
   "apiVersion": "v1",
   "metadata": {
-    "name": "AllTheThings",
+    "name": "Master-template_example",
     "creationTimestamp": null,
     "annotations": {
-      "description": "This template will create a slew of resources used to realistically test etcd usage for the online beta.",
+      "description": "This template will create a slew of resources used to realistically test etcd usage.",
       "iconClass": "icon-ruby",
       "tags": "instant-app,ruby,mysql"
     }
@@ -772,6 +772,6 @@
     }
   ],
   "labels": {
-    "template": "AllTheThings"
+    "template": "Master-template_example"
   }
 }
