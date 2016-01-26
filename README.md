@@ -33,7 +33,7 @@ These are one-off scripts developed to perform specific scalability tests for Or
     	Be verbose with output.
 ```
 
-Note that this test requires a template be provided. An example template has been provided titled 'Master-template_example.json'
+Note that this test requires a template be provided. An example template has been provided at 'templates/Master-template_example.json'
 
 
 ###Node-PodWatcher.go
